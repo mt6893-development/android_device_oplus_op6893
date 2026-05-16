@@ -52,7 +52,6 @@ vendor/bin/rt5512_calibration
 vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
 vendor/lib/hw/audio.primary.mt6893.so
-vendor/lib/hw/audio.r_submix.mt6893.so
 vendor/lib/libalsautils.so:vendor/lib/libalsautils-v31.so;FIX_SONAME
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
@@ -95,7 +94,6 @@ vendor/lib/vendor.oplus.hardware.performance@1.0.so
 vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so
 vendor/lib64/hw/audio.primary.mt6893.so
-vendor/lib64/hw/audio.r_submix.mt6893.so
 vendor/lib64/libalsautils.so:vendor/lib64/libalsautils-v31.so;FIX_SONAME
 vendor/lib64/lib_bsscore.so
 vendor/lib64/lib_iir.so

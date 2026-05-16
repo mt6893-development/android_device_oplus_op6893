@@ -93,6 +93,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.soundtrigger@2.3-impl:32 \
     audio.bluetooth.default \
+    audio.r_submix.default \
     libbluetooth_audio_session \
     libalsautils \
     libnbaio_mono \
