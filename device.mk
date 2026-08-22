@@ -27,6 +27,9 @@ $(call inherit-product-if-exists, vendor/oplus/camera/camera.mk)
 # Vendor Log Tag
 include $(DEVICE_PATH)/configs/props/logtag.mk
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
@@ -54,19 +57,19 @@ PRODUCT_PACKAGES += \
     SettingsOverlayPlatform \
     SettingsProviderOverlay \
     SystemUIOverlayPlatform \
-    TelephonyOverlay \
-    TetheringConfigOverlay \
-    WifiOverlay \
-    WifiOverlayCupida \
-    WifiOverlayDenniz \
     LineageSDKOverlay \
     LineageSDKOverlayDenniz \
     LineageSettingsProviderOverlay \
     ApertureOverlay \
     KeyHandlerOverlay
 
+$(call inherit-product, hardware/mediatek/overlay/mssi.mk)
+
 # Enforce RRO targets
 PRODUCT_ENFORCE_RRO_TARGETS := *
+
+# Platform
+TARGET_BOARD_PLATFORM := mt6893
 
 # Updater
 AB_OTA_UPDATER := false
