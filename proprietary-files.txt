@@ -1416,20 +1416,20 @@ vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so|bb9ff554802e
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so;MODULE_SUFFIX=_vendor|5e228669d2c575e38fc02a13404f31bc22494b87
 
 # IMS (framework)
-system/framework/mediatek-carrier-config-manager.jar
-system/framework/mediatek-framework.jar
-system/framework/mediatek-ims-base.jar
-system/framework/mediatek-ims-common.jar
-system/framework/mediatek-ims-extension-plugin.jar
-system/framework/mediatek-services.jar
-system/framework/mediatek-telecom-common.jar
-system/framework/mediatek-telephony-common.jar
+system_ext/framework/mediatek-telecom-common.jar
+system_ext/framework/mediatek-telephony-common.jar
+system_ext/framework/mediatek-framework.jar
+system_ext/framework/mediatek-carrier-config-manager.jar
+system_ext/framework/mediatek-ims-base.jar
+system_ext/framework/mediatek-ims-common.jar
+system_ext/framework/mediatek-ims-extension-plugin.jar
+system_ext/framework/mediatek-services.jar
 
 # IMS (Patched framework)
-system/framework/mediatek-telephony-base.jar|9803c5df30b21000f5f473e9395f0fd9c555f0cd
+system_ext/framework/mediatek-telephony-base.jar|9803c5df30b21000f5f473e9395f0fd9c555f0cd
 
 # IMS (Patched Apk) from c.12 RMX3031-user 12 SP1A.210812.016 1663769087038 release-keys
-system/priv-app/ImsService/ImsService.apk|66b9f45d119f1b53d79a05f163bcbf9089eeafd8
+system_ext/priv-app/ImsService/ImsService.apk|66b9f45d119f1b53d79a05f163bcbf9089eeafd8
 
 # IMS
 odm/lib/vendor.oplus.hardware.ims@1.0.so
