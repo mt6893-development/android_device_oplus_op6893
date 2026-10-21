@@ -1901,8 +1901,6 @@ vendor/lib64/libsysenv.so
 vendor/lib64/libtranslator_mapi_v3.0.so
 vendor/lib64/libtranslator_mdmi_v2.8.2.so;DISABLE_DEPS
 vendor/lib64/libtranslator_utils.so;DISABLE_DEPS
-vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
-vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 vendor/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so;MODULE_SUFFIX=_vendor
 
 # Secure Element
