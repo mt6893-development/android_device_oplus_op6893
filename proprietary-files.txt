@@ -1231,7 +1231,7 @@ vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so
 vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so
 
 # Pin patched activity exported engineer mode
-system/priv-app/EngineerMode/EngineerMode.apk|9c90462d8caf098ce923bb947a58e49ca13be579
+system_ext/priv-app/EngineerMode/EngineerMode.apk|9c90462d8caf098ce923bb947a58e49ca13be579
 
 # Extra
 odm/lib/libosensehalclient.so
