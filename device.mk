@@ -322,6 +322,9 @@ PRODUCT_PACKAGES += \
     ueventd.oplus.rc \
     ueventd.mtk.rc
 
+# Gadget
+$(call soong_config_set_bool,mediatek_gadget,use_custom_usb_gadget_rc,true)
+
 # Soundtrigger
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl \
