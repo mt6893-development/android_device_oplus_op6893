@@ -133,6 +133,8 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/lib3a.flash.so',
     'vendor/lib64/libSQLiteModule_VER_ALL.so'): blob_fixup()
         .add_needed('liblog.so'),
+    'vendor/lib*/hw/android.hardware.audio@7.0-impl-mediatek.so': blob_fixup()
+        .replace_needed('android.hardware.audio@7.0-util.so', 'android.hardware.audio@7.0-util.op6893.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
